@@ -106,8 +106,8 @@ with st.sidebar:
     """)
 
     st.markdown("---")
-    st.caption("🔧 Created by: [Gaurav Korde]")
-    st.caption("📅 Version: 1.0 | Powered by Random Forest")
+    st.caption("🔧 Created by: Gaurav Korde.")
+    st.caption("📅 Version: 1.0 | Powered by Random Forest.")
 
 # Predict button
 if st.button('📊 Predict Price'):
