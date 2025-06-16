@@ -277,7 +277,7 @@ def main_app():
     if st.button("Logout"):
         st.session_state.logged_in = False
         st.session_state.username = ""
-        st.experimental_rerun()
+        st.success("You have been logged out. Please reload the page.")
 
 
 # Session state initialization
